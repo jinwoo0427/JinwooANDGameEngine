@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89330bb3782b9b24cbdd68cbb025e694, type: 3}
+  m_Name: Enemy Drop Table SO
+  m_EditorClassIdentifier: 
+  dropList:
+  - {fileID: 11400000, guid: 3ddd3888f5909774db460013297d1017, type: 2}
+  - {fileID: 11400000, guid: c44945dfdd3852e48b727d44cfcabef6, type: 2}
+  - {fileID: 11400000, guid: 4eacad6c3b4bf1347a0681b3157a9de6, type: 2}

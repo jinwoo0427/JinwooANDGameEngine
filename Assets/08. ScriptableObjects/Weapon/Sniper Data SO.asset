@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11cee429c9717c2498f461554605e3c6, type: 3}
+  m_Name: Sniper Data SO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4780355313605788469, guid: a803b710897cf1e4a81ac746ac0c2ffd, type: 3}
+  bulletData: {fileID: 11400000, guid: 051aa6f91cdb6c240a230d97a95e69d8, type: 2}
+  ammoCapacity: 5
+  automaticFire: 0
+  weaponDelay: 1.5
+  spreadAngle: 1
+  _multiBulletShoot: 0
+  _bulletCount: 1
+  damageFactor: 2
+  reloadTime: 1.8
+  shootClip: {fileID: 8300000, guid: 3ca079afe40b5c942a8cbca19d388b9a, type: 3}
+  outOfAmmoClip: {fileID: 8300000, guid: 56c260531cb172d40b5f6ed2f0f3a601, type: 3}
+  reloadClip: {fileID: 8300000, guid: 1adb6ab7f57563a4a952d8d20f2e415c, type: 3}
+  sprite: {fileID: 21300000, guid: 6b441b94348c33541912c6c6f4bedbd4, type: 3}
+  infiniteAmmo: 0

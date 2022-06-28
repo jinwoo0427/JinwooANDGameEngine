@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9466f4036a7a74b8600ebc8357aff4, type: 3}
+  m_Name: Axe Bullet Data SO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2846327613968446030, guid: 9cafeb095a92f9d4f81c5db8af993727, type: 3}
+  damage: 2
+  bulletSpeed: 15
+  explosionRadius: 1
+  friction: 0
+  bounce: 0
+  goThroughHit: 0
+  isRayCast: 0
+  isCharging: 1
+  impactEnemyPrefab: {fileID: 5393580032780445778, guid: 690e6db0d1a63e949ae95dca9e1d48d8,
+    type: 3}
+  knockBackPower: 15
+  knockBackDelay: 0.3
+  bulletMat: {fileID: 0}
+  lifeTime: 7

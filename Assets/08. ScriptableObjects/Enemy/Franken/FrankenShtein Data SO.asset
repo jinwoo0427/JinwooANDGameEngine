@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a64eb263243e24881bcedfda6cc5ad, type: 3}
+  m_Name: FrankenShtein Data SO
+  m_EditorClassIdentifier: 
+  enemyName: Frankenshtein
+  prefab: {fileID: 3711592405134002474, guid: 45cbcc7d60c3e51449c33ece1c855703, type: 3}
+  poolPrefab: {fileID: 3711592405917330451, guid: 45cbcc7d60c3e51449c33ece1c855703,
+    type: 3}
+  maxHealth: 15
+  knockbackRegist: 0
+  damage: 10
+  attackDelay: 1
+  hitRange: 0
+  knockbackPower: 5

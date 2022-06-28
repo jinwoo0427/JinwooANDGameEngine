@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9466f4036a7a74b8600ebc8357aff4, type: 3}
+  m_Name: Boss Bullet Data SO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3939287440875391507, guid: 9cddd6d9f78b4ee47a2ac8e8eedcc3fe, type: 3}
+  damage: 1
+  bulletSpeed: 5
+  explosionRadius: 3
+  friction: 0
+  bounce: 0
+  goThroughHit: 0
+  isRayCast: 0
+  isCharging: 1
+  impactEnemyPrefab: {fileID: 2032093321198187234, guid: eebcc72659df0274396c797c2d5f20dc,
+    type: 3}
+  knockBackPower: 20
+  knockBackDelay: 0.3
+  bulletMat: {fileID: 0}
+  lifeTime: 10

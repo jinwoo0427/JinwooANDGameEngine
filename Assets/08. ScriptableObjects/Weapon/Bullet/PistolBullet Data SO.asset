@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9466f4036a7a74b8600ebc8357aff4, type: 3}
+  m_Name: PistolBullet Data SO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7229231472611417533, guid: 7271ce5795cac9a49aab01c0f3a2a485, type: 3}
+  damage: 1
+  bulletSpeed: 40
+  explosionRadius: 0
+  friction: 0
+  bounce: 0
+  goThroughHit: 0
+  isRayCast: 0
+  isCharging: 0
+  impactEnemyPrefab: {fileID: 1370874438154576190, guid: c02083b1627cc40449e4e7c3ed1f2a65,
+    type: 3}
+  knockBackPower: 20
+  knockBackDelay: 0.1
+  bulletMat: {fileID: 0}
+  lifeTime: 2

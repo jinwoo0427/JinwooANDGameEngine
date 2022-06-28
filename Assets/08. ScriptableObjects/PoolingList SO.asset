@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a9434b41a344d47ae877a3be5eea88, type: 3}
+  m_Name: PoolingList SO
+  m_EditorClassIdentifier: 
+  list:
+  - prefab: {fileID: 2186697591771550679, guid: 7271ce5795cac9a49aab01c0f3a2a485,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: -3044996319127838744, guid: 3bff27869d4500645892493b9de75d88,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 3509118243231426915, guid: 63e3054971644b84392978a160be9f4c,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 1138896169162513464, guid: c1a48d7a84b1acd4db32c58ce205c464,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 70061036762402875, guid: 1a1071427f5e7274483d24171906a8e7, type: 3}
+    poolCnt: 10
+  - prefab: {fileID: 8324843173392412038, guid: a96f77a69aef759418b23dca26e2a821,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 332326806579934476, guid: 88bd7a13839456e49b4964db0941a521, type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 8062269754736589336, guid: 8ebd8910d665eb74c8c62c6e07d5d5d1,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 7332826710979146838, guid: 48ae2289cbaf81f449a989eeb9b767bb,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 5626412160862475730, guid: 2612aa8b36950b240ba3eff94c56f7aa,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 2142337559236748236, guid: 38d5f22286631f941ae9cfadbaff0cb1,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 1514026987084588442, guid: 961f5a2f8ac832e44a3c4cd58fcc5175,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 6907546730635962961, guid: 4a723c9e20b12b74195064066021a371,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 1441663850693329679, guid: 9cddd6d9f78b4ee47a2ac8e8eedcc3fe,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 5319334346566066388, guid: eebcc72659df0274396c797c2d5f20dc,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 9153416715095710270, guid: 690e6db0d1a63e949ae95dca9e1d48d8,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: -3733730119931448709, guid: 9cafeb095a92f9d4f81c5db8af993727,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 1613513535899497734, guid: f51442c76aecdc8459974ac8f5c99b57,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 8329032147011123594, guid: c6685fcc318144d45b1e8bba27de0e64,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 2323189662248532822, guid: 9b79f1ee6c1c5af46a003e6dfcbb557a,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 2063288950037040590, guid: 90e2dfd877ab94c44b07488a5c9834ef,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 3711592405917330451, guid: 45cbcc7d60c3e51449c33ece1c855703,
+      type: 3}
+    poolCnt: 20
+  - prefab: {fileID: 6748107421216347243, guid: 57f522b850c22644fb35a381845d9dfa,
+      type: 3}
+    poolCnt: 20

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87f7cd97a0e9e142bc783b5228cee4a, type: 3}
+  m_Name: Money Data SO
+  m_EditorClassIdentifier: 
+  rate: 0.3
+  itemPrefab: {fileID: 3812460630645427406, guid: 4a723c9e20b12b74195064066021a371,
+    type: 3}
+  <ResourceType>k__BackingField: 3
+  minAmount: 1000
+  maxAmount: 1300
+  useSound: {fileID: 8300000, guid: 80575ff534fcd8c4fabacc41338f1795, type: 3}
+  popupTextColor: {r: 0.22863181, g: 0.9716981, b: 0.022917405, a: 1}
