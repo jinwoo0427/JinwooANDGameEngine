@@ -71,10 +71,10 @@ public class ExplosionBullet : RegularBullet
         {
             IHittable hit = e.GetComponent<IHittable>();
             hit?.GetHit(_bulletData.damage * damageFactor, gameObject);
-
+            Debug.Log("À¸ÀÌ?");
             IKnockback ikb = e.GetComponent<IKnockback>();
             Vector3 kbDir = (e.transform.position - transform.position).normalized;
-            ikb?.Knockback(-kbDir, _bulletData.knockBackPower, _bulletData.knockBackDelay);
+            ikb?.Knockback(kbDir, _bulletData.knockBackPower, _bulletData.knockBackDelay);
         }
 
         _isDead = true;

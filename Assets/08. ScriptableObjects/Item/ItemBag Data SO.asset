@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87f7cd97a0e9e142bc783b5228cee4a, type: 3}
   m_Name: ItemBag Data SO
   m_EditorClassIdentifier: 
-  rate: 0.1
+  rate: 0.05
   itemPrefab: {fileID: 3040726139195153501, guid: f51442c76aecdc8459974ac8f5c99b57,
     type: 3}
   <ResourceType>k__BackingField: 5

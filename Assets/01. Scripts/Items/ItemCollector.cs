@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using static Define;
 
 public class ItemCollector : MonoBehaviour
@@ -8,11 +9,13 @@ public class ItemCollector : MonoBehaviour
     private int _resourceLayer;
     private PlayerTest _player;
     public UpgradeUI upgrade;
-    
+    public Text getBagText;
+    private bool clickF = false;
     private void Awake()
     {
         _resourceLayer = LayerMask.NameToLayer("Resource");
         _player = GetComponent<PlayerTest>();
+        getBagText.enabled = false;
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -40,8 +43,17 @@ public class ItemCollector : MonoBehaviour
                         res.PickUpResource();
                         break;
                     case ResourceTypeEnum.ItemBag:
-                        upgrade.ShowUpgradePanel();
-                        res.PickUpResource();
+                        getBagText.enabled = true;
+                        //if(Input.GetKeyDown(KeyCode.F))
+                        //{
+                        //    upgrade.ShowUpgradePanel();
+                        //    res.PickUpResource();
+                        //}
+                        //if (clickF == true)
+                        //{
+                            
+                        //}
+                        
                         break;
                     default:
                         break;
@@ -49,7 +61,27 @@ public class ItemCollector : MonoBehaviour
             }
         }
     }
-    
+    private void OnTriggerStay(Collider other)
+    {
+        Resource res = other.gameObject.GetComponent<Resource>();
+        if (getBagText.enabled == true)
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                upgrade.ShowUpgradePanel();
+                res.PickUpResource();
+                getBagText.enabled = false;
+            }
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if(getBagText.enabled == true)
+        {
+            getBagText.enabled = false;
+        }
+    }
+
     private void PopupText(int amount, Color color)
     {
         DamagePopup dPopup = PoolManager.Instance.Pop("DamagePopup") as DamagePopup;

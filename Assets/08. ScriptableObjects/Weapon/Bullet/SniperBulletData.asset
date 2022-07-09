@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SniperBulletData
   m_EditorClassIdentifier: 
   prefab: {fileID: 1165809834916323937, guid: 38d5f22286631f941ae9cfadbaff0cb1, type: 3}
-  damage: 7
+  damage: 5
   bulletSpeed: 40
   explosionRadius: 0
   friction: 0

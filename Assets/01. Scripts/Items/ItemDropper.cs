@@ -43,7 +43,7 @@ public class ItemDropper : MonoBehaviour
     public void DropItem()
     {
         float dropVariable = Random.value; //0 ~1;
-        float dropCnt = Random.Range(dropVariable, 6f);
+        float dropCnt = Random.Range(dropVariable, 5f);
         for (int i = 0; i < dropCnt; i++)
         {
             if (dropVariable < _dropChance) //드랍율에 걸렸다면 아이템 드랍

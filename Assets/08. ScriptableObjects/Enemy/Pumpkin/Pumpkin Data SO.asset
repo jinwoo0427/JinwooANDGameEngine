@@ -20,4 +20,4 @@ MonoBehaviour:
   damage: 17
   attackDelay: 3.5
   hitRange: 3
-  knockbackPower: 7
+  knockbackPower: 15

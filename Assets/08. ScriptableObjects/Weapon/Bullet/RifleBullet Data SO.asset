@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RifleBullet Data SO
   m_EditorClassIdentifier: 
   prefab: {fileID: 5349536477328792160, guid: 63e3054971644b84392978a160be9f4c, type: 3}
-  damage: 2
+  damage: 1
   bulletSpeed: 50
   explosionRadius: 0
   friction: 0

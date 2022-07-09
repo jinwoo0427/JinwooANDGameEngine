@@ -15,10 +15,9 @@ MonoBehaviour:
   waveName: 5
   wave: 5
   _enemyList:
-  - {fileID: 11400000, guid: 635da2b6ca3fe2b43918adca0485a017, type: 2}
-  - {fileID: 11400000, guid: d6600503cfd303243b94e5389277fa91, type: 2}
   - {fileID: 11400000, guid: d6a849f2e8846f3468c201e42b30ab0c, type: 2}
   - {fileID: 11400000, guid: 9f9d685891772f241ab6618c2936779f, type: 2}
+  - {fileID: 11400000, guid: ece8aaf5e29318b42a248a4deadca572, type: 2}
   enemies: []
   enemySpawnCount: 20
   enemySpawnDelay: 3

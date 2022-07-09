@@ -6,6 +6,8 @@ public class RoadSpawn : PoolableMono
 {
 
     private float offset = 192f;
+    public bool isfrontTrigger = false;
+    public bool isbackTrigger = false;
 
     //public GameObject front, back;
     private void Awake()
@@ -16,6 +18,7 @@ public class RoadSpawn : PoolableMono
 
     public override void ResetObject()
     {
-        
+        isbackTrigger = false;
+        isfrontTrigger = false;
     }
 }

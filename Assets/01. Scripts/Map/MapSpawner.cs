@@ -16,12 +16,14 @@ public class MapSpawner : MonoBehaviour
 
     public Transform front;
     public Transform back;
+
+    public GameObject backCol;
     private void Awake()
     {
         Instance = this;
         frontCnt = 0;
         backCnt = 0;
-        totalCnt = 2;
+        //totalCnt = 2;
     }
     private void Start()
     {
@@ -39,29 +41,8 @@ public class MapSpawner : MonoBehaviour
     }
     public void SpawnFront()
     {
-        //if (totalCnt >= 2)
-        //{
-        //    //if (backroads.Count > 0)
-        //    //{
-        //    //    print("µÚ¿¡²¨ Á¦°Å");
-        //    //    backroads.RemoveAt(0);
-        //    //    //backCnt--;
-        //    //}
-        //    //else
-        //    //{
-
-        //    //    print("¾Õ¿¡²¨ Á¦°Å");
-        //    //    //backCnt++;
-        //    //}
-        //    PoolManager.Instance.Push(frontroads[0]);
-        //    frontroads.RemoveAt(0);
-        //}
-        //if (frontCnt % 3 == 1)
-        //{
-        //    DeleteRoad();
-        //}
-
         RoadSpawn road = PoolManager.Instance.Pop("RoadSetFront") as RoadSpawn;
+        road.isbackTrigger = true;
         road.transform.SetParent(frontmap.transform);
         road.transform.position = new Vector3(0, 0, front.position.z);
         roads.Add(road);
@@ -72,28 +53,9 @@ public class MapSpawner : MonoBehaviour
     }
     public void SpawnBack()
     {
-        //if(totalCnt >= 2)
-        //{
-        //    if (frontroads.Count > 0)
-        //    {
-        //        print("¾Õ¿¡²¨ Á¦°Å");
-        //        PoolManager.Instance.Push(frontroads[0]);
-        //        frontroads.RemoveAt(0);
-        //        //frontCnt--;
-        //    }
-        //    else
-        //    {
-        //        print("µÚ¿¡²¨ Á¦°Å");
-        //        PoolManager.Instance.Push(backroads[0]);
-        //        backroads.RemoveAt(0);
-        //        //frontCnt++;
-        //    }
-        //}
-        //if (backCnt % 3 == 1)
-        //{
-        //    DeleteRoad();
-        //}
+
         RoadSpawn road = PoolManager.Instance.Pop("RoadSetBack") as RoadSpawn;
+        road.isfrontTrigger = true;
         road.transform.SetParent(frontmap.transform);
         road.transform.position = new Vector3(0, 0, back.position.z);
         roads.Add(road);

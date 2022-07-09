@@ -20,7 +20,7 @@ MonoBehaviour:
   spreadAngle: 10
   _multiBulletShoot: 1
   _bulletCount: 5
-  damageFactor: 2
+  damageFactor: 1
   reloadTime: 2
   shootClip: {fileID: 8300000, guid: 35588da59e8c48a43a9dcaf03ba36410, type: 3}
   outOfAmmoClip: {fileID: 8300000, guid: 56c260531cb172d40b5f6ed2f0f3a601, type: 3}

@@ -208,7 +208,7 @@ public class EnemySpawner : MonoBehaviour
         //print("½ºÆù");
         
         posToSpawn.x = Random.Range(-5,5);
-        posToSpawn.z = Mathf.Abs(posToSpawn.z);
+        //posToSpawn.z = Mathf.Abs(posToSpawn.z);
         Enemy e = PoolManager.Instance.Pop(enemyData.enemyName) as Enemy;
         e.transform.position = posToSpawn;
         e.gameObject.transform.SetParent(parentObj);

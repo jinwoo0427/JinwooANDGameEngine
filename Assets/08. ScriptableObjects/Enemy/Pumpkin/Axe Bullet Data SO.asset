@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 2846327613968446030, guid: 9cafeb095a92f9d4f81c5db8af993727, type: 3}
   damage: 2
-  bulletSpeed: 15
+  bulletSpeed: 25
   explosionRadius: 1
   friction: 0
   bounce: 0
